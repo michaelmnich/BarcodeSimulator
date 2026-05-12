@@ -1,9 +1,4 @@
-<table>
-  <tr>
-    <td><img src="App.Bs.Barcode.Wpf.Ui/img/bs.png" alt="Logo" width="96"/></td>
-    <td><h1>BarcodeQRCodeSKD</h1></td>
-  </tr>
-</table>
+# <img src="App.Bs.Barcode.Wpf.Ui/img/bs.png" alt="Logo" width="26" height="26" /> BarcodeQRCodeSKD
 
 <p align="center">
   <strong>Emulate a barcode scanner by sending keystrokes to any application.</strong><br/>
