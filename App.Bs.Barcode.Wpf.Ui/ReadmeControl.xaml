@@ -5,15 +5,15 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
              mc:Ignorable="d"
-             d:DesignHeight="1150" d:DesignWidth="500" d:Background="pink">
+             d:DesignHeight="1050" d:DesignWidth="500" d:Background="pink">
     <ScrollViewer VerticalScrollBarVisibility="Auto">
-        <StackPanel Margin="15">
+        <StackPanel Margin="15" TextElement.Foreground="{ui:ThemeResource TextFillColorPrimaryBrush}">
 
             <!-- Header with logo -->
             <StackPanel Orientation="Horizontal" Margin="0,0,0,15">
-                <Image Source="img/bs.png" Width="32" Height="32" Margin="0,0,10,0"
+                <Image x:Name="headerLogo" Source="img/bs.png" Width="48" Height="48" Margin="0,0,12,0"
                        RenderOptions.BitmapScalingMode="HighQuality" VerticalAlignment="Center"/>
-                <TextBlock Text="Barcode Simulator" FontSize="22" FontWeight="Bold" VerticalAlignment="Center"/>
+                <TextBlock Text="BarcodeQRCodeSKD" FontSize="22" FontWeight="Bold" VerticalAlignment="Center"/>
             </StackPanel>
 
             <TextBlock TextWrapping="Wrap" Margin="0,0,0,15">
@@ -24,21 +24,21 @@
 
             <GroupBox Header="How to use" Padding="10" Margin="0,0,0,15">
                 <StackPanel>
-            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4">
+                    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4">
                 1. Type or paste a barcode string in the text box and click Add.
-            </TextBlock>
-            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4">
+                    </TextBlock>
+                    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4">
                 2. Configure the hotkey (default: Ctrl+\) and click Register.
-            </TextBlock>
-            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4">
+                    </TextBlock>
+                    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4">
                 3. Switch to the target application (e.g. a form field).
-            </TextBlock>
-            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4">
+                    </TextBlock>
+                    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4">
                 4. Press the hotkey — the simulator will wait the configured delay, then type the next code.
-            </TextBlock>
-            <TextBlock TextWrapping="Wrap" Margin="0,0,0,0">
+                    </TextBlock>
+                    <TextBlock TextWrapping="Wrap" Margin="0,0,0,0">
                 5. Each press sends the next item in the list, cycling back to the first.
-            </TextBlock>
+                    </TextBlock>
                 </StackPanel>
             </GroupBox>
 
@@ -75,65 +75,87 @@
 
             <GroupBox Header="Configuration" Padding="10" Margin="0,0,0,15">
                 <StackPanel>
-            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4">
+                    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4">
                 • <Bold>Hotkey</Bold> — the keyboard shortcut to trigger sending. Register it after changing.
-            </TextBlock>
-            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4">
+                    </TextBlock>
+                    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4">
                 • <Bold>Delay (ms)</Bold> — pause between each keystroke in milliseconds.
-            </TextBlock>
-            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4">
+                    </TextBlock>
+                    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4">
                 • <Bold>Ends with</Bold> — optional key sent after the barcode (e.g. Enter, Tab).
-            </TextBlock>
-            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4">
+                    </TextBlock>
+                    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4">
                 • <Bold>Send Delay</Bold> — seconds to wait before typing starts (configurable in Settings).
-            </TextBlock>
-            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4">
+                    </TextBlock>
+                    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4">
                 • <Bold>Preview</Bold> — switch between Barcode and QR Code visualization.
-            </TextBlock>
-            <TextBlock TextWrapping="Wrap" Margin="0,0,0,0">
+                    </TextBlock>
+                    <TextBlock TextWrapping="Wrap" Margin="0,0,0,0">
                 • <Bold>Print</Bold> — print the current barcode/QR preview.
-            </TextBlock>
+                    </TextBlock>
                 </StackPanel>
             </GroupBox>
 
             <GroupBox Header="QR Code Icon" Padding="10" Margin="0,0,0,10">
-            <TextBlock TextWrapping="Wrap">
+                <TextBlock TextWrapping="Wrap">
                 Place a QrIcon.png file in the Branding folder to have it displayed in the center of generated QR codes.
                 The QR error correction level is set to High (H) to accommodate the overlay.
-            </TextBlock>
-            </GroupBox>
-
-            <!-- GitHub -->
-            <GroupBox Padding="10" Margin="0,0,0,15">
-                <GroupBox.Header>
-                    <StackPanel Orientation="Horizontal">
-                        <ui:SymbolIcon Symbol="Code24" Margin="0,0,6,0"/>
-                        <TextBlock Text="Source Code" VerticalAlignment="Center"/>
-                    </StackPanel>
-                </GroupBox.Header>
-                <StackPanel>
-                    <TextBlock TextWrapping="Wrap" Margin="0,0,0,6">
-                        This project is open source. Visit the GitHub repository for updates, issues and contributions:
-                    </TextBlock>
-                    <TextBlock x:Name="githubLink" Margin="0,0,0,0" Cursor="Hand"
-                               MouseLeftButtonUp="GithubLink_Click"
-                               Foreground="{ui:ThemeResource SystemFillColorAttentionBrush}">
-                        <Underline>https://github.com/AdrianBinarysoft/barcode-simulator</Underline>
-                    </TextBlock>
-                </StackPanel>
+                </TextBlock>
             </GroupBox>
 
             <!-- Footer -->
-            <Border Background="{ui:ThemeResource CardBackgroundFillColorSecondaryBrush}"
+            <Border Background="{ui:ThemeResource CardBackgroundFillColorDefaultBrush}"
+                    BorderBrush="{ui:ThemeResource CardStrokeColorDefaultBrush}"
+                    BorderThickness="1"
                     CornerRadius="6" Padding="15" Margin="0,0,0,0">
-                <StackPanel HorizontalAlignment="Center">
-                    <Image Source="img/bs.png" Width="48" Height="48" Margin="0,0,0,8"
-                           RenderOptions.BitmapScalingMode="HighQuality"/>
-                    <TextBlock Text="Barcode Simulator and Generator" FontSize="14" FontWeight="SemiBold"
-                               HorizontalAlignment="Center" Margin="0,0,0,4"/>
-                    <TextBlock Text="BinarySoft" FontSize="12" HorizontalAlignment="Center"
-                               Foreground="{ui:ThemeResource TextFillColorSecondaryBrush}"/>
-                </StackPanel>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <!-- Logo + Title -->
+                    <StackPanel Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Orientation="Horizontal" Margin="0,0,0,4">
+                        <Image Source="img/bs.png" Width="24" Height="24" Margin="0,0,8,0"
+                               RenderOptions.BitmapScalingMode="HighQuality" VerticalAlignment="Center"
+                               RenderTransformOrigin="0.5,0.5">
+                            <Image.RenderTransform>
+                                <TransformGroup>
+                                    <ScaleTransform ScaleY="-1"/>
+                                    <SkewTransform/>
+                                    <RotateTransform/>
+                                    <TranslateTransform/>
+                                </TransformGroup>
+                            </Image.RenderTransform>
+                        </Image>
+                        <TextBlock Text="BarcodeQRCodeSKD" FontSize="16" FontWeight="SemiBold"
+                                   VerticalAlignment="Center"/>
+                    </StackPanel>
+
+                    <!-- Description -->
+                    <TextBlock Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" TextWrapping="Wrap" Margin="0,0,0,6"
+                               Foreground="{ui:ThemeResource TextFillColorSecondaryBrush}" FontSize="12">
+                        Open source. Visit the repository for updates, issues and contributions.
+                    </TextBlock>
+
+                    <!-- GitHub link -->
+                    <TextBlock Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" x:Name="footerGithubLink" Margin="0,0,0,4" Cursor="Hand"
+                               MouseLeftButtonUp="GithubLink_Click"
+                               Foreground="{DynamicResource SystemAccentColorPrimaryBrush}">
+                        <Underline>https://github.com/michaelmnich/BarcodeSimulator</Underline>
+                    </TextBlock>
+
+                    <!-- Author + License -->
+                    <TextBlock Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" FontSize="12" Margin="0,2,0,0"
+                               Foreground="{ui:ThemeResource TextFillColorSecondaryBrush}"
+                               Text="Author: BinarySoft  •  License: MIT"/>
+                </Grid>
             </Border>
 
         </StackPanel>

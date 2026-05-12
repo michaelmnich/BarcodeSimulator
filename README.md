@@ -1,8 +1,9 @@
-# 🔲 Barcode Simulator and Generator
-
-<p align="center">
-  <img src="App.Bs.Barcode.Wpf.Ui/img/bs.png" alt="Barcode Simulator" width="96"/>
-</p>
+<table>
+  <tr>
+    <td><img src="App.Bs.Barcode.Wpf.Ui/img/bs.png" alt="Logo" width="96"/></td>
+    <td><h1>BarcodeQRCodeSKD</h1></td>
+  </tr>
+</table>
 
 <p align="center">
   <strong>Emulate a barcode scanner by sending keystrokes to any application.</strong><br/>
@@ -109,4 +110,4 @@ barcode-simulator/
 
 **BinarySoft**
 
-- GitHub: [@AdrianBinarysoft](https://github.com/AdrianBinarysoft)
+- GitHub: [@michaelmnich](https://github.com/michaelmnich/BarcodeSimulator)

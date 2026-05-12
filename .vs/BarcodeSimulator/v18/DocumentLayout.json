@@ -7,16 +7,20 @@
       "RelativeMoniker": "D:0:0:{4E4F464C-7AC2-4F89-940C-39AD4A271036}|App.Bs.Barcode.Wpf.Ui\\App.Bs.Barcode.Wpf.Ui.csproj|solutionrelative:app.bs.barcode.wpf.ui\\readmecontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{4E4F464C-7AC2-4F89-940C-39AD4A271036}|App.Bs.Barcode.Wpf.Ui\\App.Bs.Barcode.Wpf.Ui.csproj|c:\\dev\\barcodesimulator\\app.bs.barcode.wpf.ui\\readmecontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E4F464C-7AC2-4F89-940C-39AD4A271036}|App.Bs.Barcode.Wpf.Ui\\App.Bs.Barcode.Wpf.Ui.csproj|solutionrelative:app.bs.barcode.wpf.ui\\readmecontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\dev\\barcodeSimulator\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4E4F464C-7AC2-4F89-940C-39AD4A271036}|App.Bs.Barcode.Wpf.Ui\\App.Bs.Barcode.Wpf.Ui.csproj|c:\\dev\\barcodesimulator\\app.bs.barcode.wpf.ui\\settingscontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{4E4F464C-7AC2-4F89-940C-39AD4A271036}|App.Bs.Barcode.Wpf.Ui\\App.Bs.Barcode.Wpf.Ui.csproj|solutionrelative:app.bs.barcode.wpf.ui\\settingscontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4E4F464C-7AC2-4F89-940C-39AD4A271036}|App.Bs.Barcode.Wpf.Ui\\App.Bs.Barcode.Wpf.Ui.csproj|c:\\dev\\barcodesimulator\\app.bs.barcode.wpf.ui\\barcodesimulatorcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{4E4F464C-7AC2-4F89-940C-39AD4A271036}|App.Bs.Barcode.Wpf.Ui\\App.Bs.Barcode.Wpf.Ui.csproj|solutionrelative:app.bs.barcode.wpf.ui\\barcodesimulatorcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4E4F464C-7AC2-4F89-940C-39AD4A271036}|App.Bs.Barcode.Wpf.Ui\\App.Bs.Barcode.Wpf.Ui.csproj|c:\\dev\\barcodesimulator\\app.bs.barcode.wpf.ui\\readmecontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E4F464C-7AC2-4F89-940C-39AD4A271036}|App.Bs.Barcode.Wpf.Ui\\App.Bs.Barcode.Wpf.Ui.csproj|solutionrelative:app.bs.barcode.wpf.ui\\readmecontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C454B8B2-F206-4B94-BC08-BCD4E78FEA1F}|App.Bs.Barcode\\App.Bs.Barcode.csproj|c:\\dev\\barcodesimulator\\app.bs.barcode\\barcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,10 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4E4F464C-7AC2-4F89-940C-39AD4A271036}|App.Bs.Barcode.Wpf.Ui\\App.Bs.Barcode.Wpf.Ui.csproj|c:\\dev\\barcodesimulator\\app.bs.barcode.wpf.ui\\app.bs.barcode.wpf.ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{4E4F464C-7AC2-4F89-940C-39AD4A271036}|App.Bs.Barcode.Wpf.Ui\\App.Bs.Barcode.Wpf.Ui.csproj|solutionrelative:app.bs.barcode.wpf.ui\\app.bs.barcode.wpf.ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\dev\\barcodeSimulator\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -90,18 +90,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "README.md",
-              "DocumentMoniker": "C:\\dev\\barcodeSimulator\\README.md",
-              "RelativeDocumentMoniker": "README.md",
-              "ToolTip": "C:\\dev\\barcodeSimulator\\README.md",
-              "RelativeToolTip": "README.md",
-              "ViewState": "AgIAAGkAAAAAAAAAAABBwGoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-05-12T21:12:39.375Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ReadmeControl.xaml",
               "DocumentMoniker": "C:\\dev\\barcodeSimulator\\App.Bs.Barcode.Wpf.Ui\\ReadmeControl.xaml",
@@ -114,7 +102,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "ReadmeControl.xaml.cs",
+              "DocumentMoniker": "C:\\dev\\barcodeSimulator\\App.Bs.Barcode.Wpf.Ui\\ReadmeControl.xaml.cs",
+              "RelativeDocumentMoniker": "App.Bs.Barcode.Wpf.Ui\\ReadmeControl.xaml.cs",
+              "ToolTip": "C:\\dev\\barcodeSimulator\\App.Bs.Barcode.Wpf.Ui\\ReadmeControl.xaml.cs",
+              "RelativeToolTip": "App.Bs.Barcode.Wpf.Ui\\ReadmeControl.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T17:41:21.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\dev\\barcodeSimulator\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\dev\\barcodeSimulator\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAHAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-05-12T21:12:39.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Barcode.cs",
               "DocumentMoniker": "C:\\dev\\barcodeSimulator\\App.Bs.Barcode\\Barcode.cs",
               "RelativeDocumentMoniker": "App.Bs.Barcode\\Barcode.cs",
@@ -126,19 +140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ReadmeControl.xaml.cs",
-              "DocumentMoniker": "C:\\dev\\barcodeSimulator\\App.Bs.Barcode.Wpf.Ui\\ReadmeControl.xaml.cs",
-              "RelativeDocumentMoniker": "App.Bs.Barcode.Wpf.Ui\\ReadmeControl.xaml.cs",
-              "ToolTip": "C:\\dev\\barcodeSimulator\\App.Bs.Barcode.Wpf.Ui\\ReadmeControl.xaml.cs",
-              "RelativeToolTip": "App.Bs.Barcode.Wpf.Ui\\ReadmeControl.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAABBwBcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T17:41:21.97Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "BarcodeSimulatorControl.xaml.cs",
               "DocumentMoniker": "C:\\dev\\barcodeSimulator\\App.Bs.Barcode.Wpf.Ui\\BarcodeSimulatorControl.xaml.cs",
               "RelativeDocumentMoniker": "App.Bs.Barcode.Wpf.Ui\\BarcodeSimulatorControl.xaml.cs",
@@ -146,11 +148,12 @@
               "RelativeToolTip": "App.Bs.Barcode.Wpf.Ui\\BarcodeSimulatorControl.xaml.cs",
               "ViewState": "AgIAAJ4BAAAAAAAAAIA4wP0AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T14:53:30.884Z"
+              "WhenOpened": "2026-05-12T14:53:30.884Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "SettingsControl.xaml",
               "DocumentMoniker": "C:\\dev\\barcodeSimulator\\App.Bs.Barcode.Wpf.Ui\\SettingsControl.xaml",
               "RelativeDocumentMoniker": "App.Bs.Barcode.Wpf.Ui\\SettingsControl.xaml",
@@ -161,7 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "SettingsControl.xaml.cs",
               "DocumentMoniker": "C:\\dev\\barcodeSimulator\\App.Bs.Barcode.Wpf.Ui\\SettingsControl.xaml.cs",
               "RelativeDocumentMoniker": "App.Bs.Barcode.Wpf.Ui\\SettingsControl.xaml.cs",
@@ -173,7 +176,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "BarcodeSimulatorControl.xaml",
               "DocumentMoniker": "C:\\dev\\barcodeSimulator\\App.Bs.Barcode.Wpf.Ui\\BarcodeSimulatorControl.xaml",
               "RelativeDocumentMoniker": "App.Bs.Barcode.Wpf.Ui\\BarcodeSimulatorControl.xaml",
@@ -184,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ToolTips.cs",
               "DocumentMoniker": "C:\\dev\\barcodeSimulator\\App.Bs.Barcode.Wpf.Ui\\ToolTips.cs",
               "RelativeDocumentMoniker": "App.Bs.Barcode.Wpf.Ui\\ToolTips.cs",
@@ -196,7 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "SettingsControl.xaml",
               "DocumentMoniker": "C:\\dev\\barcodeSimulator\\App.Bs.Barcode.Wpf.Ui\\SettingsControl.xaml",
               "RelativeDocumentMoniker": "App.Bs.Barcode.Wpf.Ui\\SettingsControl.xaml",
@@ -208,7 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\dev\\barcodeSimulator\\App.Bs.Barcode.Wpf.Ui\\App.xaml",
               "RelativeDocumentMoniker": "App.Bs.Barcode.Wpf.Ui\\App.xaml",
@@ -220,7 +223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "App.Bs.Barcode.Wpf.Ui.csproj",
               "DocumentMoniker": "C:\\dev\\barcodeSimulator\\App.Bs.Barcode.Wpf.Ui\\App.Bs.Barcode.Wpf.Ui.csproj",
               "RelativeDocumentMoniker": "App.Bs.Barcode.Wpf.Ui\\App.Bs.Barcode.Wpf.Ui.csproj",
@@ -232,7 +235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\dev\\barcodeSimulator\\App.Bs.Barcode.Wpf.Ui\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "App.Bs.Barcode.Wpf.Ui\\MainWindow.xaml.cs",

@@ -1,0 +1,60 @@
+﻿using System;
+using System.Diagnostics;
+using System.IO;
+using System.Windows.Controls;
+using System.Windows.Input;
+using System.Windows.Media.Imaging;
+using Wpf.Ui.Appearance;
+
+namespace App.Bs.Barcode.Wpf.Ui
+{
+    public partial class ReadmeControl : System.Windows.Controls.UserControl
+    {
+        private readonly string _brandingFolder;
+
+        public ReadmeControl()
+        {
+            InitializeComponent();
+            _brandingFolder = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Branding");
+            ApplicationThemeManager.Changed += OnThemeChanged;
+            Unloaded += (_, _) => ApplicationThemeManager.Changed -= OnThemeChanged;
+            Loaded += (_, _) => UpdateHeaderLogo();
+        }
+
+        private void OnThemeChanged(ApplicationTheme currentApplicationTheme, System.Windows.Media.Color systemAccent)
+        {
+            UpdateHeaderLogo();
+        }
+
+        private void UpdateHeaderLogo()
+        {
+            var isDark = ApplicationThemeManager.IsMatchedDark();
+            var logoFile = isDark ? "LogoDark.png" : "LogoLight.png";
+            var logoPath = Path.Combine(_brandingFolder, logoFile);
+
+            if (File.Exists(logoPath))
+            {
+                var bitmap = new BitmapImage();
+                bitmap.BeginInit();
+                bitmap.UriSource = new Uri(logoPath, UriKind.Absolute);
+                bitmap.CacheOption = BitmapCacheOption.OnLoad;
+                bitmap.EndInit();
+                bitmap.Freeze();
+                headerLogo.Source = bitmap;
+            }
+            else
+            {
+                headerLogo.Source = new BitmapImage(new Uri("pack://application:,,,/img/bs.png"));
+            }
+        }
+
+        private void GithubLink_Click(object sender, MouseButtonEventArgs e)
+        {
+            Process.Start(new ProcessStartInfo
+            {
+                FileName = "https://github.com/michaelmnich/BarcodeSimulator",
+                UseShellExecute = true
+            });
+        }
+    }
+}

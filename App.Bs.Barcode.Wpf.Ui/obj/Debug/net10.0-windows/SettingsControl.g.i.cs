@@ -121,7 +121,7 @@ namespace App.Bs.Barcode.Wpf.Ui {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/App.Bs.Barcode.Wpf.Ui;V1.0.0.0;component/settingscontrol.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/App.Bs.Barcode.Wpf.Ui;component/settingscontrol.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\SettingsControl.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

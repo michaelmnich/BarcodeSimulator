@@ -9,3 +9,15 @@ C:\Ecs\Tools\barcode-simulator-master\App.Bs.Barcode\obj\Debug\net10.0-windows\A
 C:\Ecs\Tools\barcode-simulator-master\App.Bs.Barcode\obj\Debug\net10.0-windows\refint\App.Bs.Barcode.dll
 C:\Ecs\Tools\barcode-simulator-master\App.Bs.Barcode\obj\Debug\net10.0-windows\App.Bs.Barcode.pdb
 C:\Ecs\Tools\barcode-simulator-master\App.Bs.Barcode\obj\Debug\net10.0-windows\ref\App.Bs.Barcode.dll
+C:\dev\barcodeSimulator\App.Bs.Barcode\bin\Debug\net10.0-windows\App.Bs.Barcode.deps.json
+C:\dev\barcodeSimulator\App.Bs.Barcode\bin\Debug\net10.0-windows\App.Bs.Barcode.dll
+C:\dev\barcodeSimulator\App.Bs.Barcode\bin\Debug\net10.0-windows\App.Bs.Barcode.pdb
+C:\dev\barcodeSimulator\App.Bs.Barcode\obj\Debug\net10.0-windows\App.Bs.Barcode.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\barcodeSimulator\App.Bs.Barcode\obj\Debug\net10.0-windows\App.Bs.Barcode.AssemblyInfoInputs.cache
+C:\dev\barcodeSimulator\App.Bs.Barcode\obj\Debug\net10.0-windows\App.Bs.Barcode.AssemblyInfo.cs
+C:\dev\barcodeSimulator\App.Bs.Barcode\obj\Debug\net10.0-windows\App.Bs.Barcode.csproj.CoreCompileInputs.cache
+C:\dev\barcodeSimulator\App.Bs.Barcode\obj\Debug\net10.0-windows\App.Bs.Barcode.sourcelink.json
+C:\dev\barcodeSimulator\App.Bs.Barcode\obj\Debug\net10.0-windows\App.Bs.Barcode.dll
+C:\dev\barcodeSimulator\App.Bs.Barcode\obj\Debug\net10.0-windows\refint\App.Bs.Barcode.dll
+C:\dev\barcodeSimulator\App.Bs.Barcode\obj\Debug\net10.0-windows\App.Bs.Barcode.pdb
+C:\dev\barcodeSimulator\App.Bs.Barcode\obj\Debug\net10.0-windows\ref\App.Bs.Barcode.dll

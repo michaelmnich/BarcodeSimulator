@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Ecs\Tools\barcode-simulator-master\App.Bs.Barcode.Wpf.Ui\obj\Debug\net10.0-windows\
+C:\dev\barcodeSimulator\App.Bs.Barcode.Wpf.Ui\obj\Debug\net10.0-windows\
 App.Bs.Barcode.Wpf.Ui
 none
 false
 TRACE;DEBUG;NET;NET10_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NET10_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-C:\Ecs\Tools\barcode-simulator-master\App.Bs.Barcode.Wpf.Ui\App.xaml
+C:\dev\barcodeSimulator\App.Bs.Barcode.Wpf.Ui\App.xaml
 4-1996013833
 
 9-1674255734
-217-1955122184
+2171816734008
 BarcodeSimulatorControl.xaml;MainWindow.xaml;ReadmeControl.xaml;SettingsControl.xaml;
 
 False
