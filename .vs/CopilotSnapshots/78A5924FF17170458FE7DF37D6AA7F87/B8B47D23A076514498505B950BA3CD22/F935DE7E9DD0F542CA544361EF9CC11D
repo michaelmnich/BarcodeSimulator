@@ -1,0 +1,12 @@
+﻿using System.Windows.Controls;
+
+namespace App.Bs.Barcode.Wpf.Ui
+{
+    public partial class ReadmeControl : UserControl
+    {
+        public ReadmeControl()
+        {
+            InitializeComponent();
+        }
+    }
+}

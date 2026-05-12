@@ -1,0 +1,25 @@
+namespace App.Bs.Barcode.Wpf.Ui;
+
+/// <summary>
+/// Tooltip descriptions for barcode simulator UI controls.
+/// </summary>
+public static class ToolTips
+{
+    public const string Delay =
+        "Delay in milliseconds between each keypress when sending a barcode.";
+
+    public const string Hotkey =
+        "Select modifier keys (Ctrl, Alt, Shift, Win) and type the key to create a hotkey combination.";
+
+    public const string EndsWith =
+        "Optionally ends each barcode sending with this key. "
+        + "Physical barcode scanners typically send an extra key (e.g. Enter or Tab) "
+        + "after the barcode data to signal the receiving application that scanning is complete.";
+
+    public const string NewString =
+        "Enter a series of characters you want to simulate. Press Enter to add it.";
+
+    public const string ItemsList =
+        "List of barcodes to send. Sends in order round-robin style. "
+        + "Select one and press Delete to remove it.";
+}

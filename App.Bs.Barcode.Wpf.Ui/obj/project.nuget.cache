@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "cINEa7yPTrw=",
+  "success": true,
+  "projectFilePath": "C:\\dev\\barcodeSimulator\\App.Bs.Barcode.Wpf.Ui\\App.Bs.Barcode.Wpf.Ui.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MichalMnich\\.nuget\\packages\\qrcoder\\1.6.0\\qrcoder.1.6.0.nupkg.sha512",
+    "C:\\Users\\MichalMnich\\.nuget\\packages\\wpf-ui\\3.0.5\\wpf-ui.3.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}
