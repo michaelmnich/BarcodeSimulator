@@ -9,12 +9,14 @@ Built with WPF + [WPF-UI](https://github.com/lepoco/wpfui) · Fluent / Windows 1
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-Windows-blue?logo=windows&logoColor=white)]()
 
+
+<div align="center">
+<img width="2500" height="1700" alt="Layout" src="https://github.com/user-attachments/assets/34832786-ca10-431b-ac0c-6316c39b332a" />
 </div>
 
-<img width="2500" height="1700" alt="Layout" src="https://github.com/user-attachments/assets/34832786-ca10-431b-ac0c-6316c39b332a" />
-
-
 ## ✨ Features
+
+<div align="center">
 
 | | Feature | Description |
 |---|---|---|
@@ -28,16 +30,21 @@ Built with WPF + [WPF-UI](https://github.com/lepoco/wpfui) · Fluent / Windows 1
 | 🎨 | **Dark / Light theme** | Windows 11 Fluent Design with theme switching |
 | 🏷️ | **Custom branding** | Support for custom logos (dark/light) and QR icon overlay |
 
+</div>
+
 ## 📸 Screenshots
 
 ### Main screen
 
+<div align="center">
 <img width="845" height="466" alt="Main" src="https://github.com/user-attachments/assets/57c7efe2-015d-4e86-a962-1653a215825f" />
+</div>
 
 ### Setting screen
 
+<div align="center">
 <img width="845" height="466" alt="Setting" src="https://github.com/user-attachments/assets/867c2fb9-2213-4bd2-9446-3ea0e58cc88b" />
-
+</div>
 
 ## 🚀 Getting Started
 
@@ -111,9 +118,9 @@ BarcodeSimulator/
 
 ## 🛠️ Tech Stack
 
-<table>
+<table >
   <tr>
-    <td align="center"><img src="https://img.shields.io/badge/.NET_10-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt=".NET 10"/></td>
+    <td align="center" ><img src="https://img.shields.io/badge/.NET_10-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt=".NET 10"/></td>
     <td>Runtime & SDK</td>
   </tr>
   <tr>
