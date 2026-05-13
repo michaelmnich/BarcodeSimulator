@@ -7,7 +7,7 @@
              mc:Ignorable="d"
              d:DesignHeight="600" d:DesignWidth="500" d:Background="AliceBlue">
     <ScrollViewer VerticalScrollBarVisibility="Auto">
-        <StackPanel Margin="15">
+        <StackPanel Margin="15" TextElement.Foreground="{ui:ThemeResource TextFillColorPrimaryBrush}">
 
             <!-- Theme -->
             <TextBlock Text="Appearance" FontSize="18" FontWeight="SemiBold" Margin="0,0,0,10"/>

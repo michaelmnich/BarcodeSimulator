@@ -122,7 +122,7 @@
 
                     <!-- Logo + Title -->
                     <StackPanel Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Orientation="Horizontal" Margin="0,0,0,4">
-                        <Image Source="img/bs.png" Width="24" Height="24" Margin="0,0,8,0"
+                        <Image x:Name="footerLogo" Width="24" Height="24" Margin="0,0,8,0"
                                RenderOptions.BitmapScalingMode="HighQuality" VerticalAlignment="Center"
                                RenderTransformOrigin="0.5,0.5">
                             <Image.RenderTransform>

@@ -1,10 +1,6 @@
-using System;
-using System.IO;
 using System.Windows;
-using System.Windows.Media.Imaging;
 using Wpf.Ui.Appearance;
 using Wpf.Ui.Controls;
-
 
 namespace App.Bs.Barcode.Wpf.Ui
 {
@@ -13,12 +9,9 @@ namespace App.Bs.Barcode.Wpf.Ui
     /// </summary>
     public partial class MainWindow : Window
     {
-        private readonly string _brandingFolder;
-
         public MainWindow()
         {
             InitializeComponent();
-            _brandingFolder = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Branding");
             ApplicationThemeManager.Changed += OnThemeChanged;
             Closed += (_, _) => ApplicationThemeManager.Changed -= OnThemeChanged;
             Loaded += (_, _) => UpdateAppIcon();
@@ -30,28 +23,8 @@ namespace App.Bs.Barcode.Wpf.Ui
             UpdateAppIcon();
         }
 
-        private void UpdateAppIcon()
-        {
-            var isDark = ApplicationThemeManager.IsMatchedDark();
-            var logoFile = isDark ? "LogoDark.png" : "LogoLight.png";
-            var logoPath = Path.Combine(_brandingFolder, logoFile);
 
-            if (File.Exists(logoPath))
-            {
-                var bitmap = new BitmapImage();
-                bitmap.BeginInit();
-                bitmap.UriSource = new Uri(logoPath, UriKind.Absolute);
-                bitmap.CacheOption = BitmapCacheOption.OnLoad;
-                bitmap.EndInit();
-                bitmap.Freeze();
-                appIcon.Source = bitmap;
-            }
-            else
-            {
-                // Fallback to embedded icon
-                appIcon.Source = new BitmapImage(new Uri("pack://application:,,,/img/bs.png"));
-            }
-        }
+        private void UpdateAppIcon() => appIcon.Source = BrandingHelper.GetThemedLogo();
 
         private void MinimizeButton_Click(object sender, RoutedEventArgs e)
         {

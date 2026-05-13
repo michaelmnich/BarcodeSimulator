@@ -7,7 +7,7 @@
 			 xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
              mc:Ignorable="d"
 			 d:DesignHeight="700" d:DesignWidth="520" d:Background="AliceBlue">
-	<Grid Margin="10">
+	<Grid Margin="10" TextElement.Foreground="{ui:ThemeResource TextFillColorPrimaryBrush}">
 		<Grid.RowDefinitions>
 			<RowDefinition Height="Auto"/>
 			<RowDefinition Height="*"/>
