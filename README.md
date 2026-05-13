@@ -36,7 +36,8 @@ Built with WPF + [WPF-UI](https://github.com/lepoco/wpfui) · Fluent / Windows 1
 
 ### Setting screen
 
-<img width="845" height="466" alt="Settings" src="https://github.com/user-attachments/assets/bf87be37-3966-49ae-90f2-6a12527fac87" />
+<img width="845" height="466" alt="Setting" src="https://github.com/user-attachments/assets/867c2fb9-2213-4bd2-9446-3ea0e58cc88b" />
+
 
 ## 🚀 Getting Started
 
