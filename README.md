@@ -11,7 +11,8 @@ Built with WPF + [WPF-UI](https://github.com/lepoco/wpfui) · Fluent / Windows 1
 
 </div>
 
----
+<img width="2500" height="1700" alt="Layout" src="https://github.com/user-attachments/assets/34832786-ca10-431b-ac0c-6316c39b332a" />
+
 
 ## ✨ Features
 
@@ -29,7 +30,13 @@ Built with WPF + [WPF-UI](https://github.com/lepoco/wpfui) · Fluent / Windows 1
 
 ## 📸 Screenshots
 
-<!-- Add screenshots here -->
+### Main screen
+
+<img width="845" height="466" alt="Main" src="https://github.com/user-attachments/assets/57c7efe2-015d-4e86-a962-1653a215825f" />
+
+### Setting screen
+
+<img width="845" height="466" alt="Settings" src="https://github.com/user-attachments/assets/bf87be37-3966-49ae-90f2-6a12527fac87" />
 
 ## 🚀 Getting Started
 
