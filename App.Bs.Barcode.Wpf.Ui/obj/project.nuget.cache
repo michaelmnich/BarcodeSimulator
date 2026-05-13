@@ -1,11 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "cINEa7yPTrw=",
+  "dgSpecHash": "l2YdeiI5s7k=",
   "success": true,
   "projectFilePath": "C:\\dev\\barcodeSimulator\\App.Bs.Barcode.Wpf.Ui\\App.Bs.Barcode.Wpf.Ui.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\MichalMnich\\.nuget\\packages\\microsoft.net.illink.tasks\\10.0.5\\microsoft.net.illink.tasks.10.0.5.nupkg.sha512",
     "C:\\Users\\MichalMnich\\.nuget\\packages\\qrcoder\\1.6.0\\qrcoder.1.6.0.nupkg.sha512",
-    "C:\\Users\\MichalMnich\\.nuget\\packages\\wpf-ui\\3.0.5\\wpf-ui.3.0.5.nupkg.sha512"
+    "C:\\Users\\MichalMnich\\.nuget\\packages\\wpf-ui\\3.0.5\\wpf-ui.3.0.5.nupkg.sha512",
+    "C:\\Users\\MichalMnich\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\10.0.5\\microsoft.netcore.app.runtime.win-x64.10.0.5.nupkg.sha512",
+    "C:\\Users\\MichalMnich\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\10.0.5\\microsoft.windowsdesktop.app.runtime.win-x64.10.0.5.nupkg.sha512",
+    "C:\\Users\\MichalMnich\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\10.0.5\\microsoft.aspnetcore.app.runtime.win-x64.10.0.5.nupkg.sha512"
   ],
   "logs": []
 }

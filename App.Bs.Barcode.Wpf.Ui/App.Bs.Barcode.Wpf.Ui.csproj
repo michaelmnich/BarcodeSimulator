@@ -24,6 +24,7 @@
 
   <ItemGroup>
     <Resource Include="img\bs.png" />
+    <Resource Include="img\bsDark.png" />
   </ItemGroup>
 
 </Project>
